@@ -83,7 +83,7 @@ RUN git clone https://github.com/GrammaTech/gtirb.git && \
 # Install gtirb-print
 RUN git clone https://github.com/GrammaTech/gtirb-pprinter.git && \
     cd gtirb-pprinter && \
-    git checkout 370eebc7ed61eaf0a721e0bd441d67e2c8024319 && \
+    git checkout a974d7a43a1b51c15793a6322c75c8065f8f4d8d && \
     cmake -B build . && \
     cd build && \
     make install && \
